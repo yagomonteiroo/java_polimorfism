@@ -4,7 +4,7 @@ public class Principal {
     joao.setNome("João");
     joao.setSalario(1000);
 
-    System.out.println(joao.getNome() + " recebe um salário de R$" + joao.getSalario());
+    System.out.println(joao.getNome() + " é um funcionário e recebe um salário de R$" + joao.calculaSalario());
 
 
     Coordenador coordenadorCursoJava = new Coordenador();
@@ -12,7 +12,7 @@ public class Principal {
 
     joao = coordenadorCursoJava;
 
-    System.out.println(joao.getSalario());
+    System.out.println( "Ele Agora é coordenador Java. Ele tem " + coordenadorCursoJava.getQuantidadeAlunos() + " alunos como coordenador Java e por isso recebe um salário de " + joao.calculaSalario());
 
   }
 }
