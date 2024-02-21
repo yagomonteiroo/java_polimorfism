@@ -10,8 +10,6 @@ public static void main(String[] args) {
   Coordenador coordenadorCursoJava = new Coordenador();
   coordenadorCursoJava.setQuantidadeAlunos(8);
 
-  coordenadorCursoJava.calculaSalario();
-
   joao = coordenadorCursoJava;
 
   System.out.println(joao.getSalario());
